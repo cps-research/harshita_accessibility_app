@@ -1,0 +1,19 @@
+Inspirationandotherresources.txt
+
+
+
+Rersources:-
+
+1. https://www.youtube.com/watch?v=pS1T7Q7wLeM&ab_channel=SahosoftSolutions
+2. https://youtu.be/oFmHQsviAYo?si=Iv-yrAICKV9oTnbv
+3. https://www.youtube.com/watch?v=dnhnSoMEv6Q&ab_channel=SalmaAlam-Naylor
+4. https://www.youtube.com/watch?v=GH1N2m75eE4&ab_channel=ADesignerWhoCodes
+5. 
+
+- https://www.w3.org/WAI/ARIA/apg/patterns/accordion/
+- https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+- https://www.a11yproject.com/posts/how-to-use-the-tabindex-attribute/
+- https://userway.org/?utm_source=indiaai.gov.in&utm_medium=widget_footer&utm_campaign=free_widget 
+
+
+- https://github.com/w3c/csswg-drafts/issues/6869 
