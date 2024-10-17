@@ -1,0 +1,20 @@
+sometimes this error comes for the corousal:-
+
+Uncaught runtime errors:
+×
+ERROR
+Illegal invocation
+TypeError: Illegal invocation
+    at Object.find (http://localhost:3000/static/js/bundle.js:13605:60)
+    at Carousel._getItems (http://localhost:3000/static/js/bundle.js:14240:27)
+    at Carousel._getItemIndex (http://localhost:3000/static/js/bundle.js:14159:17)
+    at triggerEvent (http://localhost:3000/static/js/bundle.js:14197:20)
+    at completeCallBack (http://localhost:3000/static/js/bundle.js:14226:7)
+    at execute (http://localhost:3000/static/js/bundle.js:13124:51)
+    at HTMLDivElement.handler (http://localhost:3000/static/js/bundle.js:13142:5)
+    at triggerTransitionEnd (http://localhost:3000/static/js/bundle.js:12997:11)
+    at http://localhost:3000/static/js/bundle.js:13147:7
+
+
+
+    

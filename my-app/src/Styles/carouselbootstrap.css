@@ -1,0 +1,9 @@
+/* .carousel-overlay-button {
+    position: absolute;
+    top: 50%; Center vertically
+    left: 50%; Center horizontally
+    transform: translate(-50%, -50%); Adjust to truly center
+    z-index: 1000; Ensure the button is above the carousel
+    font-size: 64px;
+  }
+   */

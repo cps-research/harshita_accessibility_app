@@ -1,0 +1,113 @@
+html, body {
+    height: 100%; /* Make the height 100% to ensure full page */
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+}
+
+.main-content {
+    flex: 1; /* This ensures the content expands to push footer down */
+}
+
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #ccc;
+    width: 100%;
+    padding: 10px 0; /* Some padding for better appearance */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.last-updated p {
+    margin: 0;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.footer-nav {
+    font-size: 0.9rem;
+}
+
+.footer-nav a:hover {
+    color: #007bff;
+    margin: 0 2px;
+    text-decoration: none;
+}
+
+/* .footer-nav a:hover {
+    text-decoration: underline;
+} */
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer {
+    background-color: #f8f9fa; /* Light grey background */
+    border-top: 1px solid #ccc;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Anchor link styling to ensure no color change */
+.footer a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.footer-last{
+    border-top: #333;
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.footer-copyright p {
+    margin: 0;
+    color: #333;
+    font-size: 0.9rem;
+    width: 100%;
+    border-top: #333;
+    align-items: left;
+}
+
+
+/* Spacing for links */
+.footer-nav a {
+    margin-right: 4px; /* Add space between links */
+}
+
+.footer-nav a:last-child {
+    margin-right: 0; /* Remove margin from the last link */
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}

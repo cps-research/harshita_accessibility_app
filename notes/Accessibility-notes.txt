@@ -1,0 +1,19 @@
+For Accessibility implementations, there are 3 non-react (using standard html attributes, or some js) options:-
+
+1. Using ARIA Labels
+2. Tab index
+3. Handle the keyboard events for opening and closing the dropdowns.
+
+ Can be done stuff:-
+Tab key navigates through all focusable elements (including dropdowns).
+Dropdown menus open and close using keyboard interactions (e.g., Enter or Space keys).
+Arrow keys can be used to navigate between dropdown items when the dropdown is open.
+
+REACT OPTION:-
+
+Using npm-module for the same:-
+1. this package is used for TTS for the html tags 
+[instsllation:- npm install react-speech-kit
+imports:- import { useSpeechSynthesis } from 'react-speech-kit';]
+2. 
+3. 
