@@ -26,7 +26,8 @@ This project is a clone of the MEITY Web Accessibility Integrations website. The
 2. **Install Dependencies: Make sure you have Node.js installed, then run**:
 
     ```bash
-    npm install```
+    npm install
+    ```
 
 3. **Change to the sudirectory**:
    
