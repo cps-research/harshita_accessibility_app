@@ -1,0 +1,42 @@
+I need to install 
+
+npm install react-bootstrap bootstrap
+                
+                {/* Accessibility Badge */}
+                <Badge 
+                  style={{ marginLeft: '10px' }}
+                  variant={release.isAccessible ? 'success' : 'danger'}
+                  aria-label={release.isAccessible ? 'Accessible PDF' : 'Non-Accessible PDF'}
+                >
+                  {release.isAccessible ? 'Accessible' : 'Non-Accessible'}
+                </Badge>
+
+_______________________________________
+
+                {/* Accessibility Tag */}
+                {/* <span 
+                  style={{
+                    marginLeft: '10px',
+                    padding: '4px 8px',
+                    color: '#fff',
+                    borderRadius: '4px',
+                    backgroundColor: release.isAccessible ? '#60c128' : '#ff4d4d'
+                  }}
+                  aria-label={release.isAccessible ? 'Accessible PDF' : 'Non-Accessible PDF'}
+                >
+                  {release.isAccessible ? 'Accessible' : 'Non-Accessible'}
+                </span> */}
+
+_______________________________________
+
+existing bootstrap npm 
+
+                {release.isAccessible ? (
+                    <span className="badge bg-success ms-2">Accessible</span>
+                ) : (
+                    <span className="badge bg-danger ms-2">Inaccessible</span>
+                )}
+_______________________________________
+
+added another information and that is :- document id
+
